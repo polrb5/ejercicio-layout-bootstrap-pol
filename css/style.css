@@ -10,10 +10,18 @@ body {
 .pie {
   background-color: var(--color-cabecera-pie);
   color: #fff;
+  height: 100px;
 }
 .principal {
   background-color: var(--color-principal);
+  min-height: calc(100vh - 200px);
+}
+.principal p {
+  font-size: 13px;
 }
 .aside {
   background-color: var(--color-aside);
+}
+aside li {
+  font-size: 13px;
 }
