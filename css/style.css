@@ -3,9 +3,13 @@
   --color-principal: #d8d5d8;
   --color-aside: #adacb5;
 }
-.header,
+body {
+  color: #333;
+}
+.navbar,
 .pie {
   background-color: var(--color-cabecera-pie);
+  color: #fff;
 }
 .principal {
   background-color: var(--color-principal);
