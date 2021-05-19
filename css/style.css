@@ -1,0 +1,15 @@
+:root {
+  --color-cabecera-pie: #2d3141;
+  --color-principal: #d8d5d8;
+  --color-aside: #adacb5;
+}
+.header,
+.pie {
+  background-color: var(--color-cabecera-pie);
+}
+.principal {
+  background-color: var(--color-principal);
+}
+.aside {
+  background-color: var(--color-aside);
+}
